@@ -1,0 +1,33 @@
+.footer {
+  background-color: var(--background);
+  box-shadow: 1px 1px 10px 1px var(--black-shadow);
+  padding: 2rem 6rem;
+  text-align: center;
+
+  a {
+    align-items: center;
+    display: inline-flex;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+  }
+
+  p {
+    color: blueviolet;
+    font-weight: bold;
+    text-align: center;
+  }
+}
+
+.reactIcon {
+  -webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+  from {
+    -webkit-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(359deg);
+  }
+}

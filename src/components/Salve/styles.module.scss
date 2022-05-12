@@ -1,0 +1,111 @@
+.container {
+  display: flex;
+  padding: 0;
+  flex-direction: row;
+
+  h2 {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  img {
+    align-items: center;
+    height: 70%;
+    justify-content: center;
+    margin-bottom: 3rem;
+    width: 100%;
+  }
+}
+
+.salveImage {
+  display: none;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.116);
+  border-radius: 3px;
+  padding: 2rem;
+  width: 100%;
+
+  input,
+  textarea {
+    background-color: rgba(white, 0.8);
+    border: solid 1px rgba(255, 255, 255, 0.116);
+    border-radius: 5px;
+    margin: 2rem auto auto 0;
+    outline: none;
+    resize: none;
+  }
+
+  textarea {
+    display: block;
+  }
+
+  .emailStatusMessage {
+    margin-top: 2rem;
+    text-align: center;
+  }
+}
+
+.content {
+  padding: 1.5rem;
+  width: 100%;
+  form {
+    font-size: 1.2em;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.2em;
+  }
+
+  input,
+  textarea {
+    padding: 0.8em;
+    width: 100%;
+  }
+}
+.whatsAppContainer {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 2rem;
+  margin-top: 2rem;
+}
+
+.submitButton {
+  margin-top: 2rem;
+}
+
+.submitButton,
+.whatsAppButton > :first-child {
+  background-color: var(--blue-violet);
+  border: none;
+  border-radius: 0.2em;
+  color: var(--white);
+  display: block;
+  font-size: 1em;
+  margin-left: auto;
+  padding: 0.8em 1em;
+  width: 150px;
+}
+
+.airplaneIcon {
+  margin-left: 0.5rem;
+  padding: 0;
+}
+
+.companyImage {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
+
+@media (min-width: 1080px) {
+  .salveImage {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
